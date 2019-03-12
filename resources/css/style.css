@@ -8,13 +8,14 @@
     box-sizing: border-box;
 }
 
-html {
+html,body {
     background-color: #ffffff;
     color: #000;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -318,15 +319,15 @@ header {
     width: 40%;
 }
 
-.workstep {
+.work-steps {
     margin-bottom: 50px;
 }
 
-.workstep:last-of-type {
+.work-steps:last-of-type {
     margin-bottom: 80px;
 }
 
-.workstep div {
+.work-steps div {
     color: #e67e22;
     border: 2px solid #e67e22;
     display: inline-block;
